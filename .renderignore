@@ -1,0 +1,11 @@
+frontend/
+frontend/dist/
+frontend/node_modules/
+.git/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+.env.local
+grok_logs.csv
