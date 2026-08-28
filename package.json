@@ -1,0 +1,13 @@
+{
+  "name": "heatpath-ai",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "pnpm --filter heatpath-ai-frontend dev",
+    "build": "pnpm --filter heatpath-ai-frontend build",
+    "preview": "pnpm --filter heatpath-ai-frontend preview"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
