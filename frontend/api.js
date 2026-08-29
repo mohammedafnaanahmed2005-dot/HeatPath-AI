@@ -161,4 +161,9 @@ export const api = {
   askAIAgent,
 };
 
+// Added aliases here
+export const fetchAssetAudit = api.auditAssets;
+export const simulateDigitalTwin = api.simulateInterventions;
+export const fetchFortyGuardReports = api.getReports;
+
 export default api;
